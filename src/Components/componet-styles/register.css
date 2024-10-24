@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container .regis-arrowback {
+    margin-top: 30px;
+    padding: 10px;
+    background: #D9D9D9;
+    border-radius: 15px;
+    transform: translateX(-120px);
+    margin-bottom: 40px;
+}
+
+.register-container .register-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-layout .re-Laptop {
+    padding: 10px;
+    background-color: rgb(70, 70, 255);
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+
+.register-layout .regis-email {
+    border-radius: 10px;
+    background: #D9D9D9;
+    padding: 12px 70px 12px 20px;
+    color: #FFF;
+    font-family: Inter;
+    color: black;
+    font-weight: 400;
+    border: unset;
+    margin-bottom: 17px;
+}
+
+.regis-pass::placeholder {
+    color: white;
+}
+
+.regis-email::placeholder {
+    color: white;
+}
+
+.register-layout .regis-pass {
+    border-radius: 10px;
+    background: #D9D9D9;
+    padding: 12px 70px 12px 20px;
+    color: #FFF;
+    font-family: Inter;
+    color: black;
+    font-weight: 400;
+    border: unset;
+    margin-bottom: 17px;
+}
+
+.register-layout .regis-button {
+    text-align: center;
+}
+
+.register-layout .regis-button .btn-regis {
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    background: #4228E4;
+    border: unset;
+}

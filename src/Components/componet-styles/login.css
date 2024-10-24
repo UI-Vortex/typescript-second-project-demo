@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.Login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 95px;
+}
+
+.login-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-layout .login-laptop {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgb(64, 64, 255);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.login-layout .login-email {
+    padding: 18px 70px 15px 23px;
+    margin-bottom: 20px;
+    fill: #D9D9D9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: rgba(217, 217, 217, 1);
+    border: unset;
+    border-radius: 10px;
+    color: black;
+}
+
+.login-layout .login-pass {
+    padding: 18px 70px 15px 23px;
+    margin-bottom: 20px;
+    fill: #D9D9D9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: rgba(217, 217, 217, 1);
+    border: unset;
+    border-radius: 10px;
+    color: black;
+}
+
+.login-layout .login-buttons {
+    display: flex;
+    gap: 23px;
+    row-gap: 23px;
+    flex-wrap: wrap;
+}
+
+.login-layout .login-buttons .login-login {
+    padding: 9px 30px;
+    border-radius: 30px;
+    background: #4228E4;
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    border: unset;
+    cursor: pointer;
+}
+
+.login-layout .login-buttons .login-register {
+    border-radius: 30px;
+    background: #4228E4;
+    padding: 9px 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    border: unset;
+    cursor: pointer;
+}
